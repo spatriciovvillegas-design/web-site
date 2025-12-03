@@ -1,0 +1,194 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Portal de Noticias - Actualidad Chile</title>
+  <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+
+  <!-- Encabezado negro -->
+  <header class="encabezado">
+    <h1>Portal De Noticias Actualidad Chile</h1>
+  </header>
+
+  <!-- Barra de navegación -->
+  <nav class="topbar">
+    <ul>
+      <li><a href="index.html">Inicio</a></li>
+      <li><a href="politica.html">Política</a></li>
+      <li><a href="economia.html">Economía</a></li>
+      <li><a href="deporte.html">Deportes</a></li>
+      <li><a href="cultura.html">Cultura</a></li>
+      <li><a href="internacional.html">Internacional</a></li>
+      <li><a href="opinion.html">Opinión</a></li>
+      <li><a href="tecnologia.html">Tecnología</a></li>
+    </ul>
+  </nav>
+
+  <!-- Contenedor general -->
+  <main class="contenedor">
+
+    <!-- Columna izquierda -->
+    <section class="izquierda">
+      <div class="titulo">Destacado del día</div>
+
+      <div class="noticia-principal">
+        <a href="politica.html">
+          <img src="img/1.jpg" alt="Gobierno anuncia nuevo plan energético nacional" class="img-fondo">
+        </a>
+        <div class="tarjeta">
+          <strong>Última hora:</strong> Gobierno anuncia nuevo plan energético nacional
+        </div>
+      </div>
+    </section>
+
+    <!-- Columna derecha -->
+    <aside class="derecha">
+      <div class="bloque ancho"><strong>Resumen de noticias</strong></div>
+
+      <div class="fila">
+        <div class="mini">
+          <a href="cultura.html">
+            <img src="img/2.jpg" alt="Sistema frontal deja lluvias en la zona centro-sur" class="img-fondo">
+          </a>
+        </div>
+        <div class="bloque">
+          <b>Clima:</b> Sistema frontal deja lluvias en la zona centro-sur
+        </div>
+      </div>
+
+      <div class="fila">
+        <div class="mini">
+          <a href="economia.html">
+            <img src="img/3.jpg" alt="El dólar cierra la semana sobre los $960" class="img-fondo">
+          </a>
+        </div>
+        <div class="bloque">
+          <b>Economía:</b> El dólar cierra la semana sobre los $960
+        </div>
+      </div>
+
+      <div class="fila">
+        <div class="mini">
+          <a href="politica.html">
+            <img src="img/4.jpg" alt="Congreso aprueba reforma previsional" class="img-fondo">
+          </a>
+        </div>
+        <div class="bloque">
+          <b>Política:</b> Congreso aprueba reforma previsional
+        </div>
+      </div>
+
+      <div class="fila">
+        <div class="mini">
+          <a href="deporte.html">
+            <img src="img/5.jpg" alt="La Roja se prepara para el amistoso ante Argentina" class="img-fondo">
+          </a>
+        </div>
+        <div class="bloque">
+          <b>Deportes:</b> La Roja se prepara para el amistoso ante Argentina
+        </div>
+      </div>
+    </aside>
+
+    <!-- Segunda fila -->
+    <section class="inferior">
+      <div class="bloque">
+        <a href="economia.html">
+          <img src="img/12.jpg" alt="Expertos proyectan crecimiento económico" class="img-fondo">
+        </a>
+        <b>Economía: Expertos proyectan un leve crecimiento del 2,3% para 2026</b>
+      </div>
+      <div class="bloque largo">
+        <a href="tecnologia.html">
+          <img src="img/13.jpg" alt="Entrevista sobre innovación y energía limpia" class="img-fondo">
+        </a>
+        <b>Entrevista: “Chile debe mirar hacia la innovación y la energía limpia”, dice ministra de Ciencia</b>
+      </div>
+    </section>
+
+    <!-- Tercera fila -->
+    <section class="inferior">
+      <div class="bloque">
+        <a href="deporte.html">
+          <img src="img/15.jpg" alt="Colo Colo clasifica a semifinales de la Copa Sudamericana" class="img-fondo">
+        </a>
+        <b>Deportes: Colo Colo clasifica a semifinales de la Copa Sudamericana</b>
+      </div>
+      <div class="bloque largo">
+        <a href="internacional.html">
+          <img src="img/16.jpg" alt="Tensión en Europa por nuevo acuerdo de defensa" class="img-fondo">
+        </a>
+        <b>Internacional: Tensión en Europa por nuevo acuerdo de defensa</b>
+      </div>
+    </section>
+
+    <!-- Redes Sociales -->
+    <section class="redes-sociales" id="redes">
+      <h2>Síguenos</h2>
+      <div class="iconos-redes">
+        <a href="https://youtube.com" class="btn-social yt" target="_blank" aria-label="YouTube">
+          <i class="fa-brands fa-youtube"></i>
+        </a>
+        <a href="https://x.com" class="btn-social tw" target="_blank" aria-label="X">
+          <i class="fa-brands fa-x-twitter"></i>
+        </a>
+        <a href="https://instagram.com" class="btn-social ig" target="_blank" aria-label="Instagram">
+          <i class="fa-brands fa-instagram"></i>
+        </a>
+        <a href="https://github.com" class="btn-social gh" target="_blank" aria-label="GitHub">
+          <i class="fa-brands fa-github"></i>
+        </a>
+        <a href="https://facebook.com" class="btn-social fb" target="_blank" aria-label="Facebook">
+          <i class="fa-brands fa-facebook-f"></i>
+        </a>
+      </div>
+    </section>
+
+    <!-- Sección: Contacto -->
+    <section class="contacto" id="contacto">
+      <div class="contacto-contenedor">
+        <h2>Contacto</h2>
+        <p>¿Tienes alguna consulta? Escríbenos.</p>
+
+        <form id="formContacto" class="form-contacto" novalidate>
+          <label for="nombre">Nombre</label>
+          <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required>
+
+          <label for="email">Correo</label>
+          <input type="email" id="email" name="email" placeholder="tucorreo@ejemplo.com" required>
+
+          <label for="tipo">Tipo de consulta</label>
+          <select id="tipo" name="tipo" required>
+            <option value="" disabled selected>-- Selecciona --</option>
+            <option value="general">Consulta general</option>
+            <option value="sugerencia">Sugerencia</option>
+            <option value="reclamo">Reporte / Reclamo</option>
+            <option value="donaciones">Donaciones</option>
+          </select>
+
+          <label for="mensaje">Mensaje</label>
+          <textarea id="mensaje" name="mensaje" rows="5" placeholder="Escribe tu mensaje..." required></textarea>
+
+          <div class="botones">
+            <button type="submit" class="btn-enviar">Enviar</button>
+            <button type="reset" class="btn-limpiar">Limpiar</button>
+          </div>
+
+          <p id="form-respuesta" class="form-respuesta" aria-live="polite" style="display:none;"></p>
+        </form>
+      </div>
+    </section>
+
+    <!-- Pie de página -->
+    <footer class="pie">
+      <p>© 2025 Actualidad Chile | Inicio</p>
+    </footer>
+
+  </main>
+
+</body>
+</html>
